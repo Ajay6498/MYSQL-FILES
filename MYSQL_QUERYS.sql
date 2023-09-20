@@ -141,9 +141,21 @@ SELECT * FROM TEST1;
 SHOW TRIGGERS;
 
 
- 
 
 
+/*################################## QUERYS ##########################################################*/
+
+USE DEMO2;
+
+
+SELECT NAME ,SAL FROM TEST1 WHERE SAL>5000000;
+
+
+INSERT INTO TEST1 VALUES(115,'SJAY','SOFWARE','SE',-5600),
+                         (116,'SAM','ML','SE',-950);
+                         
+                         
+SELECT * FROM TEST1;
 
 
 
